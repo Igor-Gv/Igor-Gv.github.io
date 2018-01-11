@@ -67,7 +67,7 @@ text-align: center;
 margin: 0 auto;}
 .work-pictures img{
 		margin-top:3rem;
-		width: 90%;
+		width: 100%;
 }
 
 
@@ -109,8 +109,8 @@ margin-top: 2rem;
 	margin: 2rem auto;
 }
 .work-picture img{
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
