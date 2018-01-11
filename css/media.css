@@ -104,4 +104,10 @@ margin-top: 2rem;
 	display: block;
 	margin: 2rem auto;
 }
+	.contact-form textarea{
+	width: 100%;
+}
+.contact-form input {
+    min-width: 25rem;
+    }
 }
