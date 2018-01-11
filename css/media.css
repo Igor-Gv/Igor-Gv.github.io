@@ -127,6 +127,7 @@ margin-top: 2rem;
 
 .contact-form textarea{
 	width: 100%;
+	min-width: 25rem;
 }
 .contact-form input {
     min-width: 25rem;
