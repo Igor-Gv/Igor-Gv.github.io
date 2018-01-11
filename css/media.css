@@ -104,10 +104,11 @@ margin-top: 2rem;
 	display: block;
 	margin: 2rem auto;
 }
-	.work-picture img{
+.work-picture img{
 	width: 100%;
+	text-align: center;
 }
-	.contact-form textarea{
+.contact-form textarea{
 	width: 100%;
 }
 .contact-form input {
