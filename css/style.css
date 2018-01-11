@@ -1,4 +1,7 @@
 /*typography*/
+html{
+	overflow: hidden;
+}
 section, footer {
   padding: 10rem 0 10rem 0;
 }
