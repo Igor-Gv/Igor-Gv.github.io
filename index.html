@@ -718,17 +718,19 @@
 
 
 
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js" async></script>
+ 
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" defer></script>
+  <script src="js/parallax.min.js" defer></script>
+   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js" defer></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- slick slider -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script> -->
-    <script src="js/slick.min.js"></script>
+    <script src="js/slick.min.js" defer></script>
     <script> 
 $(document).ready(function(){   
 $('.slider').slick({
@@ -786,7 +788,6 @@ $('.slider').slick({
             $(".cover").css({"display", "block"});
             });
     </script> -->
-    <script src="js/parallax.min.js"></script>
     <script>
        
     $('.go_to').click( function(){ // ловим клик по ссылке с классом go_to
