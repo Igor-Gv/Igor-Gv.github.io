@@ -201,6 +201,9 @@ margin-top: 2rem;
 .contact-form input {
     min-width: 15rem;
     }
+.arrow_up{
+   display: none;
+   }
 }
 
 
